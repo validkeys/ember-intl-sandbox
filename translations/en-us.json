@@ -1,0 +1,11 @@
+{
+  "interface": {
+    "nav": {
+      "overview": "Overview"
+    }
+  },
+  "strategies": {
+    "First Strategy": "First Strategy",
+    "Second Strategy": "Second Strategy"
+  }
+}

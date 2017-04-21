@@ -1,5 +1,23 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
 {{outlet}}
+
+<button {{action "setLocale" "en-us"}}>English</button>
+<button {{action "setLocale" "fr-qc"}}>French Quebec</button>
+<button {{action "setLocale" "fr-nb"}}>French New Brunswick</button>
+
+<h3>Interface Translations</h3>
+<ul>
+  <li>{{t 'interface.nav.overview'}}</li>
+  <li>Wealth Dashboard</li>
+  <li>Meetings</li>
+</ul>
+
+
+<h1>Strategies (Dyanmic Translations)</h1>
+
+<ul>
+  {{#each model as |strategy|}}
+    <li>{{t strategy.intlKey}}</li>
+  {{else}}
+    <li>No Strategies</li>
+  {{/each}}
+</ul>

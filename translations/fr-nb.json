@@ -1,0 +1,11 @@
+{
+  "interface": {
+    "nav": {
+      "overview": "overview(french new brunswick)"
+    }
+  },
+  "strategies": {
+    "First Strategy": "First Strategy (Fr NB)",
+    "Second Strategy": "Second Strategy (Fr NB)"
+  }
+}

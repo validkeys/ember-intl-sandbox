@@ -1,0 +1,11 @@
+{
+  "interface": {
+    "nav": {
+      "overview": "overview(french quebec)"
+    }
+  },
+  "strategies": {
+    "First Strategy": "First Strategy (FR QB)",
+    "Second Strategy": "Second Strategy (FR QB)"
+  }
+}
