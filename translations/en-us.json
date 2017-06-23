@@ -9,6 +9,9 @@
     "Second Strategy": "Second Strategy"
   },
   "activities": {
-    "USER_MENTIONED": "{actor} mentioned {object} in the following message: {messageText}"
+    "USER_MENTIONED": {
+      "text": "{actor} mentioned {object} in the following message: {messageText}",
+      "html": "<a href=\"{actorURL}\">{actor}</a> mentioned {object} in the following message: {messageText}"
+    }
   }
 }

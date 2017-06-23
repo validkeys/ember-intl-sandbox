@@ -7,5 +7,11 @@
   "strategies": {
     "First Strategy": "First Strategy (FR QB)",
     "Second Strategy": "Second Strategy (FR QB)"
+  },
+  "activities": {
+    "USER_MENTIONED": {
+      "text": "{actor} mentioned {object} in the following message: {messageText} (FR QB)",
+      "html": "<a href=\"{actorURL}\">{actor}</a> mentioned {object} in the following message: {messageText} (FR QB)"
+    }
   }
 }
